@@ -96,7 +96,7 @@ $page="<!DOCTYPE html><html><head><title>$LastTemp1"."°C"."</title>"."<meta htt
 
 $page .='<div id="chart_div" ></div>';
 $page .='<div id="hum_chart_div" ></div>';
-$page .="Poslední aktualizace: $LastTime";
+$page .="Last update: $LastTime";
 
 $page .='<div style="overflow:auto;height:300px;width:300px;overflow: scroll;">'.'<table border="1" cellspacing="1" cellpadding="1"><tr><td>&nbsp;Timestamp&nbsp;</td><td>&nbsp;Outside temp&nbsp;</td><td>&nbsp;Inside temp&nbsp;</td><td>&nbsp;Humidity&nbsp;</td></tr>';
 
